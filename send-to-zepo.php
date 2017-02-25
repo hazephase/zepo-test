@@ -56,9 +56,9 @@ curl_close ($ch);
 
 	$arr['delivery_pincode'] = '400080';
 
-	$arr['order_number'] = '111110001'
+	$arr['order_number'] = '111110001';
 
-	// $arr['payment_mode'] = 'Online';
+	 $arr['payment_mode'] = 'Online';
 
 	$arr['insurance'] = false;
 
@@ -68,9 +68,9 @@ curl_close ($ch);
 
 	$arr['package_details']['details'] = array();
 
-	$arr['package_details']['details']['weight'] = '2'
-	$arr['package_details']['details']['length'] = '3'
-	$arr['package_details']['details']['height'] = '4'
+	$arr['package_details']['details']['weight'] = '2';
+	$arr['package_details']['details']['length'] = '3';
+	$arr['package_details']['details']['height'] = '4';
 	$arr['package_details']['details']['width']  = '2';
 
 	$arr['package_details']['details']['invoice'] = round('123',0);
