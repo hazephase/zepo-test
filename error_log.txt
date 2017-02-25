@@ -1,1 +1,1 @@
-[25-Feb-2017 02:42:07 Etc/GMT] PHP Parse error:  syntax error, unexpected '$arr' (T_VARIABLE) in /home/plustlb1/public_html/ielly.com/test/test-lib/smaple-to-zepo.php on line 63
+[25-Feb-2017 03:08:53 Etc/GMT] PHP Fatal error:  Using $this when not in object context in /home/plustlb1/public_html/ielly.com/test/test-lib/smaple-to-zepo.php on line 19
