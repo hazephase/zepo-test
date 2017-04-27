@@ -1,6 +1,6 @@
 <?php 
 
- $postcode = postcode->something; 
+ 
 
 
 	// STORE REQUIRED DATA IN ARRAY
