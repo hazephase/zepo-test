@@ -1,12 +1,15 @@
 <?php 
 
+ $postcode = postcode->something; 
+
+
 	// STORE REQUIRED DATA IN ARRAY
 
 	$arr = array();
 
 	$arr['pickup_pincode'] 	= '400071';
 
-	$arr['delivery_pincode'] = '400080';
+	$arr['delivery_pincode'] = '$postcode';
 
 	$arr['order_number'] = '111110001';
 
@@ -53,7 +56,7 @@
 	
 	$secret_key	=	"cb87c55d06506bd9ccd9ec866cac6ff3";		// ADD YOUR SECRET KEY HERE					
 	
-	$post_url	=	"http://api.couriers.fodo.in/initiateShipmentRequest";	// SANDBOX URL
+	$post_url	=	"http://api.couriers.vello.in/initiateShipmentRequest";	// SANDBOX URL
 	
 	//$post_url	=	"http://api.couriers.zepo.in/initiateShipmentRequest";	// PRODUCTION URL
 
